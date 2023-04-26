@@ -1,0 +1,115 @@
+CREATE TABEL employee(
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  birthday date
+)
+
+
+--
+
+insert into employee (id, name, email, birthay) values (1, 'Valentina Riddall', 'vriddall0@skype.com', '1998-12-11');
+insert into employee (id, name, email, birthay) values (2, 'Allin Heister', 'aheister1@theglobeandmail.com', '1996-09-25');
+insert into employee (id, name, email, birthay) values (3, 'Bernelle Jackes', 'bjackes2@shinystat.com', '1996-08-30');
+insert into employee (id, name, email, birthay) values (4, 'Lawton Kruszelnicki', 'lkruszelnicki3@ucsd.edu', '2000-04-12');
+insert into employee (id, name, email, birthay) values (5, 'Gypsy Ridger', 'gridger4@hexun.com', '1998-10-01');
+insert into employee (id, name, email, birthay) values (6, 'Jermaine Rawlingson', 'jrawlingson5@geocities.jp', '1996-12-22');
+insert into employee (id, name, email, birthay) values (7, 'Elvera Blain', 'eblain6@toplist.cz', '1997-02-08');
+insert into employee (id, name, email, birthay) values (8, 'Renard Lalonde', 'rlalonde7@uol.com.br', '1997-10-19');
+insert into employee (id, name, email, birthay) values (9, 'Heda Wintringham', 'hwintringham8@youtube.com', '1996-09-10');
+insert into employee (id, name, email, birthay) values (10, 'Foss McCurdy', 'fmccurdy9@slashdot.org', '1998-07-17');
+insert into employee (id, name, email, birthay) values (11, 'Deidre Jervoise', 'djervoisea@twitpic.com', '1997-08-18');
+insert into employee (id, name, email, birthay) values (12, 'Raynell Clynmans', 'rclynmansb@walmart.com', '1996-06-28');
+insert into employee (id, name, email, birthay) values (13, 'Benny Ingerson', 'bingersonc@vinaora.com', '1999-03-09');
+insert into employee (id, name, email, birthay) values (14, 'Jobey Karpenya', 'jkarpenyad@technorati.com', '1999-06-12');
+insert into employee (id, name, email, birthay) values (15, 'Susanna Rapson', 'srapsone@devhub.com', '1999-04-01');
+insert into employee (id, name, email, birthay) values (16, 'Leelah Kilvington', 'lkilvingtonf@google.ru', '1996-11-11');
+insert into employee (id, name, email, birthay) values (17, 'Amby Terese', 'atereseg@tripadvisor.com', '1996-06-10');
+insert into employee (id, name, email, birthay) values (18, 'Dulciana Phettiplace', 'dphettiplaceh@blogtalkradio.com', '1997-03-10');
+insert into employee (id, name, email, birthay) values (19, 'Lacey Cathery', 'lcatheryi@spiegel.de', '1998-08-24');
+insert into employee (id, name, email, birthay) values (20, 'Eugenie Youngman', 'eyoungmanj@github.io', '1996-09-02');
+insert into employee (id, name, email, birthay) values (21, 'Jennie Studdard', 'jstuddardk@opera.com', '1997-02-21');
+insert into employee (id, name, email, birthay) values (22, 'Waylen Hanscome', 'whanscomel@yahoo.com', '1998-10-05');
+insert into employee (id, name, email, birthay) values (23, 'Lawry Bannester', 'lbannesterm@stumbleupon.com', '1996-08-28');
+insert into employee (id, name, email, birthay) values (24, 'Homerus McGrotty', 'hmcgrottyn@businesswire.com', '1997-03-12');
+insert into employee (id, name, email, birthay) values (25, 'Audi O''Hartagan', 'aohartagano@dmoz.org', '1998-02-13');
+insert into employee (id, name, email, birthay) values (26, 'Gottfried Coolson', 'gcoolsonp@gov.uk', '1997-01-13');
+insert into employee (id, name, email, birthay) values (27, 'Hercules Niemetz', 'hniemetzq@who.int', '1999-06-26');
+insert into employee (id, name, email, birthay) values (28, 'Dorine Mosdell', 'dmosdellr@parallels.com', '1998-07-29');
+insert into employee (id, name, email, birthay) values (29, 'Darda Kuscha', 'dkuschas@ibm.com', '1998-07-20');
+insert into employee (id, name, email, birthay) values (30, 'Natal Metzke', 'nmetzket@oakley.com', '1997-08-05');
+insert into employee (id, name, email, birthay) values (31, 'Mabel Nickolls', 'mnickollsu@bbc.co.uk', '1999-11-26');
+insert into employee (id, name, email, birthay) values (32, 'Prisca Couthard', 'pcouthardv@cnn.com', '2000-01-21');
+insert into employee (id, name, email, birthay) values (33, 'Julita Advani', 'jadvaniw@ft.com', '1998-08-12');
+insert into employee (id, name, email, birthay) values (34, 'Heinrik Greener', 'hgreenerx@dropbox.com', '1999-09-17');
+insert into employee (id, name, email, birthay) values (35, 'Bonnee Renouf', 'brenoufy@qq.com', '1998-02-05');
+insert into employee (id, name, email, birthay) values (36, 'Nate Tagg', 'ntaggz@rediff.com', '1999-02-03');
+insert into employee (id, name, email, birthay) values (37, 'Ingelbert Jefferys', 'ijefferys10@mlb.com', '1997-04-19');
+insert into employee (id, name, email, birthay) values (38, 'Alon Hayhurst', 'ahayhurst11@youku.com', '1999-10-01');
+insert into employee (id, name, email, birthay) values (39, 'Nevin Petroff', 'npetroff12@indiatimes.com', '1997-08-28');
+insert into employee (id, name, email, birthay) values (40, 'Ezechiel Wipper', 'ewipper13@stumbleupon.com', '1998-10-18');
+insert into employee (id, name, email, birthay) values (41, 'Lenore Oglesbee', 'loglesbee14@geocities.jp', '1999-02-27');
+insert into employee (id, name, email, birthay) values (42, 'Natal Blodget', 'nblodget15@diigo.com', '1998-02-06');
+insert into employee (id, name, email, birthay) values (43, 'Adelaide Bruneton', 'abruneton16@pbs.org', '1997-07-17');
+insert into employee (id, name, email, birthay) values (44, 'Katlin Plumtree', 'kplumtree17@technorati.com', '1997-08-29');
+insert into employee (id, name, email, birthay) values (45, 'Raphaela Howsan', 'rhowsan18@ucoz.ru', '1997-11-26');
+insert into employee (id, name, email, birthay) values (46, 'Arleen Leet', 'aleet19@gov.uk', '1998-07-09');
+insert into employee (id, name, email, birthay) values (47, 'Tess Itzkowicz', 'titzkowicz1a@mit.edu', '1999-01-17');
+insert into employee (id, name, email, birthay) values (48, 'Deb Rickard', 'drickard1b@seattletimes.com', '1998-11-06');
+insert into employee (id, name, email, birthay) values (49, 'Kennie Bohden', 'kbohden1c@dropbox.com', '2000-01-03');
+insert into employee (id, name, email, birthay) values (50, 'Garik Mattielli', 'gmattielli1d@qq.com', '1999-02-03');
+
+
+--
+UPDATE employee
+SET name = 'Arda'
+WHERE id = '3'
+RETURNING *;
+
+UPDATE employee
+SET birthay = '1996-05-23'
+WHERE name = 'Renard Lalonde'
+RETURNING *;
+
+UPDATE employee
+SET email = 'aleet19@gov.uk'
+WHERE id = '46'
+RETURNING *;
+
+UPDATE employee
+SET name = 'Brown'
+WHERE email = 'bjackes2@shinystat.com'
+RETURNING *;
+
+UPDATE employee
+SET name = 'Arda Can'
+WHERE name = 'Garik Mattielli'
+RETURNING *;
+
+--
+
+DELETE FROM employee
+Where name = 'arda'
+RETURNING *;
+
+DELETE FROM employee
+Where birthay = '1996-05-23'
+RETURNING *;
+
+DELETE FROM employee
+Where email = 'aleet19@gov.uk'
+RETURNING *;
+
+DELETE FROM employee
+Where id = '46'
+RETURNING *;
+
+DELETE FROM employee
+Where name = 'Arda Can'
+RETURNING *;
+
+--
+
+DELETE FROM employee 
+WHERE id > 10
+RETURNING *;
